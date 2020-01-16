@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{06476F2A-24AB-494B-9902-327136C0FB0E}</ProjectGuid>
+    <ProjectGuid>{9561625D-7E38-4A77-8501-3846FF388BBB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PrjCSharpWiederholung</RootNamespace>
-    <AssemblyName>PrjCSharpWiederholung</AssemblyName>
+    <RootNamespace>EventsInCSharp</RootNamespace>
+    <AssemblyName>EventsInCSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arbeitszeitmodel.cs" />
-    <Compile Include="Entlohnungsschema.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TeilnehmerIn.cs" />
-    <Compile Include="Tier.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
